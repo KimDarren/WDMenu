@@ -2,6 +2,12 @@
 
 **WDMenu** is simple menu view with some animation for iOS.
 
+###Screenshots
+- Before open the menu.
+![Screenshot01](https://github.com/KimDarren/WDMenu/blob/master/Screenshots/01.PNG)
+- After open the menu.
+![Screenshot02](https://github.com/KimDarren/WDMenu/blob/master/Screenshots/02.PNG)
+
 ### How to use.
 
 ```
@@ -13,9 +19,8 @@ WDMenu *menu = [[WDMenu alloc] initWithContentsView:contentsView superView:self.
 - Set animation duration
 ```
 menu.animationDuration = 5.0f;
-
-- Set background color
 ```
+- Set background color
 ```
 menu.backgroundColor = [UIColor redColor];
 ```
